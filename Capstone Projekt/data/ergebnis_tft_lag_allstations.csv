@@ -1,0 +1,9 @@
+Modell,Horizont,MAE,RMSE,MASE,MAPE %
+TFT 12 Stat. Lag: Wetter,8 h,29.361,48.108,0.498,78.93
+TFT 12 Stat. Lag: Wetter,24 h,39.758,64.607,0.677,144.271
+TFT 12 Stat. Lag: Wetter,48 h,51.217,82.163,0.872,186.72
+TFT 12 Stat. Lag: Wetter,72 h,55.455,85.442,0.945,214.549
+TFT 12 Stat. Lag: Wetter+Co,8 h,29.657,50.088,0.503,91.845
+TFT 12 Stat. Lag: Wetter+Co,24 h,41.272,67.472,0.702,128.108
+TFT 12 Stat. Lag: Wetter+Co,48 h,53.71,88.049,0.914,147.991
+TFT 12 Stat. Lag: Wetter+Co,72 h,59.104,92.503,1.006,178.004

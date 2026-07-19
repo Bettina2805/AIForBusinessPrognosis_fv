@@ -1,0 +1,9 @@
+Modell,Horizont,MAE,RMSE,MASE,MAPE %
+TFT 12 Stat.: Basis (univariat),8 h,22.87,39.375,0.389,83.074
+TFT 12 Stat.: Basis (univariat),24 h,36.187,58.905,0.617,131.297
+TFT 12 Stat.: Basis (univariat),48 h,48.31,77.586,0.824,172.717
+TFT 12 Stat.: Basis (univariat),72 h,52.208,79.684,0.891,199.616
+TFT 12 Stat.: Behandelt + FT + Reg,8 h,26.209,41.339,0.444,65.527
+TFT 12 Stat.: Behandelt + FT + Reg,24 h,28.188,45.525,0.48,68.253
+TFT 12 Stat.: Behandelt + FT + Reg,48 h,33.006,56.713,0.562,72.512
+TFT 12 Stat.: Behandelt + FT + Reg,72 h,34.847,58.187,0.594,79.621

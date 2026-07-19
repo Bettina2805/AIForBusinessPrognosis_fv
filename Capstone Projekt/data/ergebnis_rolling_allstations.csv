@@ -1,0 +1,13 @@
+Modell,Horizont,MAE,RMSE,MASE,MAPE %
+Prophet + Perfect-Prognosis,8 h,56.206,77.585,0.958,68.148
+Prophet + Perfect-Prognosis,24 h,57.064,78.734,0.975,75.968
+Prophet + Perfect-Prognosis,48 h,50.798,72.219,0.867,102.071
+Prophet + Perfect-Prognosis,72 h,46.592,67.536,0.795,102.039
+Prophet + Persistenz,8 h,60.097,79.289,1.022,83.818
+Prophet + Persistenz,24 h,70.33,88.931,1.199,157.048
+Prophet + Persistenz,48 h,68.335,87.901,1.162,221.983
+Prophet + Persistenz,72 h,64.048,86.474,1.088,229.985
+Seasonal Naive,8 h,66.842,83.676,1.132,102.617
+Seasonal Naive,24 h,66.947,85.151,1.14,160.402
+Seasonal Naive,48 h,68.573,90.512,1.168,232.371
+Seasonal Naive,72 h,66.214,92.441,1.127,238.192

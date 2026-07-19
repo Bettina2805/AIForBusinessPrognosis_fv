@@ -1,0 +1,11 @@
+Variante,seed,MAE,RMSE
+Basis,42,20.3192,38.2226
++ Windgeschw.,42,18.7919,34.2512
++ Windrichtung,42,18.2533,35.7937
++ beide Wind,42,18.7047,32.1598
++ beide Wind + Geo,42,18.9679,34.477
+Basis,43,18.4775,37.2692
++ Windgeschw.,43,18.2713,34.2284
++ Windrichtung,43,18.7111,35.6598
++ beide Wind,43,18.4048,33.7078
++ beide Wind + Geo,43,18.8755,33.291

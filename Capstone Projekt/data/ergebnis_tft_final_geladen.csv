@@ -1,0 +1,5 @@
+Modell,Horizont,MAE,RMSE,MASE,MAPE %
+TFT geladen (tft_final_multivariat_v2),8 h,26.64,42.179,0.471,61.272
+TFT geladen (tft_final_multivariat_v2),24 h,31.079,50.585,0.551,66.952
+TFT geladen (tft_final_multivariat_v2),48 h,37.103,64.322,0.657,74.566
+TFT geladen (tft_final_multivariat_v2),72 h,38.496,64.677,0.682,79.735

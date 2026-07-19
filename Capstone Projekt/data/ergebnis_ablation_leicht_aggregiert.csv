@@ -1,0 +1,6 @@
+Variante,MAE_mean,MAE_std,RMSE_mean,RMSE_std,n_Seeds
+Basis,19.3984,1.3022,37.7459,0.6741,2
++ Windgeschw.,18.5316,0.3681,34.2398,0.0161,2
++ Windrichtung,18.4822,0.3238,35.7268,0.0947,2
++ beide Wind,18.5547,0.2121,32.9338,1.0946,2
++ beide Wind + Geo,18.9217,0.0653,33.884,0.8386,2

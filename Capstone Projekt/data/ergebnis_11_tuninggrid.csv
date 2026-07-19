@@ -1,0 +1,5 @@
+changepoint_prior_scale,seasonality_prior_scale,holidays_prior_scale,seasonality_mode,CV_RMSE
+0.05,10.0,10.0,multiplicative,194.67
+0.01,10.0,10.0,additive,194.75
+0.05,10.0,10.0,additive,196.32
+0.01,10.0,10.0,multiplicative,198.41

@@ -1,0 +1,9 @@
+Modell,Horizont,MAE,RMSE,MASE,MAPE %
+TFT: Basis (univariat),8 h,24.59,40.237,0.415,69.324
+TFT: Basis (univariat),24 h,36.384,57.58,0.614,119.887
+TFT: Basis (univariat),48 h,49.203,77.473,0.831,154.768
+TFT: Basis (univariat),72 h,56.314,86.875,0.951,192.992
+TFT: Behandelt + FT + Reg,8 h,27.608,41.631,0.461,66.804
+TFT: Behandelt + FT + Reg,24 h,28.975,44.469,0.483,66.672
+TFT: Behandelt + FT + Reg,48 h,33.085,54.441,0.552,71.071
+TFT: Behandelt + FT + Reg,72 h,34.086,54.17,0.569,75.821
