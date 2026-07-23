@@ -1,0 +1,5 @@
+Modell,Horizont,MAE,RMSE,MASE,MAPE %
+TFT final (multivariat),8 h,26.037,42.413,0.46,50.653
+TFT final (multivariat),24 h,32.434,56.46,0.574,54.814
+TFT final (multivariat),48 h,37.47,67.318,0.663,61.298
+TFT final (multivariat),72 h,39.666,69.213,0.702,71.22
