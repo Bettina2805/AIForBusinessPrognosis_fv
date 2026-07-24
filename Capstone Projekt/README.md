@@ -35,8 +35,8 @@ und Abschlusspräsentation.
 |:---|:---|
 | `CRISP-DM-Projektplan_PM25_Beijing.docx` | Projektplan nach dem CRISP-DM-Vorgehensmodell. |
 | `project_description.PDF` | Ursprüngliche Aufgabenstellung. |
-| `ts-tutorial.yml` | Conda-Umgebung für Prophet + Chronos + TFT (siehe unten). |
-| `tft.yml` / `chronos_env.yml` | Zusätzliche/alternative Umgebungsdefinitionen. |
+| `chronos_env.yml` | **Haupt-Umgebung** – damit lief das Vergleichsnotebook (`05_Modellvergleich_all.ipynb`) mit Prophet, Chronos und TFT (siehe unten). |
+| `ts-tutorial.yml` / `tft.yml` | Zusätzliche/alternative Umgebungsdefinitionen. |
 | `README.md` | Diese Übersicht. |
 
 ## Die einzelnen Ordner im Detail
@@ -67,16 +67,18 @@ Die durchnummerierte Pipeline von der Datenanalyse bis zum Modellvergleich:
 Archiv älterer Notebook-Fassungen (`*.BACKUP*`, frühere Nummerierungen, `SpaeterLoeschen_*`).
 Dient nur der Nachvollziehbarkeit – für aktuelle Arbeit `notebooks_fv/` verwenden.
 
-## Umgebung einrichten (`ts-tutorial.yml`)
+## Umgebung einrichten (`chronos_env.yml`)
 
-Die Conda-Umgebung enthält Prophet, Chronos und PatchTST (über HuggingFace `transformers`, plus `datasets` und `gluonts`).
+Die **wichtigste** Conda-Umgebung für dieses Projekt ist `chronos_env`: damit wurde das Vergleichsnotebook `05_Modellvergleich_all.ipynb` (Prophet vs. Chronos vs. TFT) ausgeführt. Sie enthält u. a. Chronos, Prophet und die für den Modellvergleich benötigten Abhängigkeiten.
 
 ```bash
-conda env update -f ts-tutorial.yml --prune
-conda activate ts-tutorial
+conda env update -f chronos_env.yml --prune
+conda activate chronos_env
 ```
 
-> **⚠️ Nur unter Windows lauffähig.** Die `ts-tutorial.yml` wurde unter Windows exportiert und enthält Windows-spezifische Conda-Builds (`win-64`, `mingw`, `vs2015_runtime` u. a.). Unter macOS/Linux schlägt `conda env update` deshalb fehl. Wer nicht auf Windows arbeitet, installiert die Kernpakete stattdessen manuell: `prophet`, `chronos-forecasting`, `transformers`, `datasets`, `gluonts`, `torch`, `pandas`, `matplotlib`, `jupyterlab`.
+`ts-tutorial.yml` und `tft.yml` sind zusätzliche/alternative Umgebungsdefinitionen und für den Gesamtvergleich nicht maßgeblich.
+
+> **⚠️ Nur unter Windows lauffähig.** Die `chronos_env.yml` wurde unter Windows exportiert und enthält Windows-spezifische Conda-Builds (`win-64`, `mingw`, `vs2015_runtime` u. a.). Unter macOS/Linux schlägt `conda env update` deshalb fehl. Wer nicht auf Windows arbeitet, installiert die Kernpakete stattdessen manuell: `chronos-forecasting`, `prophet`, `transformers`, `datasets`, `gluonts`, `torch`, `pandas`, `matplotlib`, `jupyterlab`.
 >
-> **Hinweis zur Kodierung:** Die Datei ist als **UTF-8** gespeichert. Beim Neu-Exportieren unter PowerShell bitte `conda env export | Out-File -Encoding utf8 ts-tutorial.yml` verwenden — sonst entsteht UTF-16, das der conda-Parser mit dem Fehler `unacceptable character #x0000` ablehnt.
+> **Hinweis zur Kodierung:** Die Datei ist als **UTF-8** gespeichert. Beim Neu-Exportieren unter PowerShell bitte `conda env export | Out-File -Encoding utf8 chronos_env.yml` verwenden — sonst entsteht UTF-16, das der conda-Parser mit dem Fehler `unacceptable character #x0000` ablehnt.
 </content>
