@@ -76,8 +76,6 @@ conda env update -f chronos_env.yml --prune
 conda activate chronos_env
 ```
 
-`ts-tutorial.yml` und `tft.yml` sind zusätzliche/alternative Umgebungsdefinitionen und für den Gesamtvergleich nicht maßgeblich.
-
 > **⚠️ Nur unter Windows lauffähig.** Die `chronos_env.yml` wurde unter Windows exportiert und enthält Windows-spezifische Conda-Builds (`win-64`, `mingw`, `vs2015_runtime` u. a.). Unter macOS/Linux schlägt `conda env update` deshalb fehl. Wer nicht auf Windows arbeitet, installiert die Kernpakete stattdessen manuell: `chronos-forecasting`, `prophet`, `transformers`, `datasets`, `gluonts`, `torch`, `pandas`, `matplotlib`, `jupyterlab`.
 >
 > **Hinweis zur Kodierung:** Die Datei ist als **UTF-8** gespeichert. Beim Neu-Exportieren unter PowerShell bitte `conda env export | Out-File -Encoding utf8 chronos_env.yml` verwenden — sonst entsteht UTF-16, das der conda-Parser mit dem Fehler `unacceptable character #x0000` ablehnt.
