@@ -27,7 +27,7 @@ und Abschlusspräsentation.
 | `presentation/` | Abschlusspräsentation (`Luftverschmutzung in Bejing.pptx`). |
 | `literature/` | Fachliteratur/Papers zur PM2.5-Prognose in Beijing (Transformer, Multi-Site-Modelle …). |
 | `images/` | Bilder für Präsentation und Dokumentation (Karten, Illustrationen). |
-| `notebooks_artefakte/` | **Archiv** – ältere Notebook-Versionen, Backups und Zwischenstände. Nicht der aktive Arbeitsstand. |
+| `notebooks_artefakte/` | **Archiv** – ältere Notebook-Versionen, Backups und Zwischenstände. Zusatzskripte zur Erzeugung einzelner Abbildungen in der Präsentation. Nicht der aktive Arbeitsstand. |
 
 ## Dateien im Projektordner
 
